@@ -17,7 +17,7 @@ import java.util.List;
 public class FolderSubject implements Subject, Serializable {
 	
 	private static final long serialVersionUID = 1L;
-	private static String SPAWNED_DIRECTORY = "../BattleZoneFolder/";
+	private static String SPAWNED_DIRECTORY = "../BattleZoneFolderTD/";
 	private List<Observer> observers= new ArrayList<>();
 	
 	public FolderSubject() {

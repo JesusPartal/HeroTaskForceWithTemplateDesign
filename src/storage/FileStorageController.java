@@ -22,7 +22,7 @@ public class FileStorageController implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	private static FileStorageController instance;
-	private static String SAVE_DIRECTORY = "../SaveTheWorld/";
+	private static String SAVE_DIRECTORY = "../SaveTheWorldTD/";
 	private static String SAVE_FILENAME = "saveTheWorld_";
 	private static String SAVE_EXTENSION = ".ser";
 	private int fileVersion;
